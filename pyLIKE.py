@@ -160,7 +160,7 @@ class TurbulentCase:
         self.geometry_type = geo_type
 
         # LIKE Algorithm
-        self.l = integral_length(GeometryType.INTERNAL_FLOW, self.x)
+        self.l = integral_length(geo_type, self.x)
         self.I = turbulence_intensity(self.Re)[1]  # Sandborn
         self.k = tke(self.I, self.u)
         self.e = eps(self.k, self.l)
