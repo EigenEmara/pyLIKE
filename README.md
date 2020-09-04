@@ -2,7 +2,7 @@
  Implementation of LIKE algorithm by Dr. Sal Rodriguez to estimate CFD turbulence case initial conditions
 
 ## Example Case
-Air flow through a pipe with diamter = 0.5 m, velocity = 2.0 m/s, T = 300 K at atmoshperic pressure.
+Air flow through a pipe with diamter = 0.5 m, velocity = 2.0 m/s, T = 300 K at atmospheric pressure.
 
 
     if __name__ == '__main__':
