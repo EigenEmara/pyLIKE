@@ -172,7 +172,7 @@ class TurbulentCase:
 
     def report(self):
         data = [
-            ['Reynolds Number (Re)', self.Re / 1e5],
+            ['Reynolds Number (Re)', self.Re],
             ['Turbulence intensity (I)', self.I],
             ['Turbulence kinetic energy (k) [m2/s2]', self.k],
             ['Dissipation rate (Epsilon) [m2/s3]', self.e],
